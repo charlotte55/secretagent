@@ -37,7 +37,7 @@ html {
   height: 25rem;
 }
 
-.new .container{
+.center{
   background-color: black;
   color: white;
   width: 20rem;
@@ -46,12 +46,12 @@ html {
   top: 9rem;
 }
 
-.new .container h2{
+.center h2{
   font-size: 1rem;
   font-weight: bold;
 }
 
-.new .container h1{
+.center h1{
   font-size: 2rem;
   font-weight: bold;
   margin: 0 .25rem 0;
@@ -63,12 +63,12 @@ nav{
   color: white;
 }
 
-nav ul{
+nav .list{
   display: flex;
   align-items: center;
   align-content: space-between;
-  list-style: none;
   padding: 0 .75rem 0;
+  list-style: none;
 }
 
 /* Product Highlights */
