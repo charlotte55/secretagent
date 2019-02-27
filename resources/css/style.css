@@ -1,0 +1,159 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+/* Universal Styles */
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Header Section */
+
+.header{
+  background-color: black;
+  color: white;
+}
+
+.header .container{
+  display: flex;
+  align-items: center;
+  padding: 0.66rem 0 0.66rem 0.5rem;
+}
+
+.header img{
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+/* Main Background Image and New Heading */
+
+.new{
+  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.new .container{
+  background-color: black;
+  color: white;
+  width: 20rem;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
+}
+
+.new .container h2{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.new .container h1{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 .25rem 0;
+}
+
+/* Navigation */
+nav{
+  background-color: firebrick;
+  color: white;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  list-style: none;
+  padding: 0 .75rem 0;
+}
+
+/* Product Highlights */
+.container .products{
+  display: flex;
+  padding-top: 3rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container .products .pen{
+  border: 4px solid black;
+  width: 30%;
+}
+
+.container .products .pen img{
+  padding-top: 2rem;
+  height: 9rem;
+  padding-bottom: 2 rem;
+}
+
+.container .products .watch{
+  border: 4px solid black;
+  width: 30%;
+}
+
+.container .products .watch img{
+  padding-top: 2rem;
+  height: 9rem;
+  padding-bottom: 2 rem;
+}
+
+.container .products .glasses{
+  border: 4px solid black;
+  width: 30%;
+}
+
+.container .products .glasses img{
+  padding-top: 2rem;
+  height: 9rem;
+  padding-bottom: 2 rem;
+}
+
+.container .products p{
+  background-color: black;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.info{
+  display: flex;
+  align-items: cacenter;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.info .location {
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+  width: 35%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.info .hours {
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+  width: 35%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  height: 5rem;
+}
+
+.footer .container{
+  display: flex;
+  align-items: left;
+}
