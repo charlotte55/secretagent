@@ -176,6 +176,7 @@ html {
   .watch,
   .glasses{
     width: 90%;
+    margin: auto;
   }
 
   .watch,
@@ -230,4 +231,10 @@ html {
 .footer .container{
   display: flex;
   align-items: left;
+}
+
+@media only screen and (max-width: 470px){
+  .footer p{
+    margin: auto;
+  }
 }
