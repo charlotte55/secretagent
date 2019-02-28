@@ -102,32 +102,31 @@ html {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   color: white;
+  text-align: center;
 }
 
 .info{
   display: flex;
-  align-items: cacenter;
+  align-items: center;
   padding-top: 3rem;
   padding-bottom: 4rem;
 }
 
-.info .location {
+.info .block {
   background-color: black;
   color: white;
-  padding-left: 2rem;
-  width: 35%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 0rem 1rem 2rem;
 }
 
-.info .hours {
-  margin: 0 auto;
-  background-color: black;
-  color: white;
-  padding-left: 2rem;
+.info .location{
+  flex: display;
   width: 35%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+}
+
+.info .hours{
+  flex: display;
+  margin: auto;
+  width: 35%;
 }
 
 .footer{
