@@ -57,6 +57,41 @@ html {
   margin: 0 .25rem 0;
 }
 
+@media only screen and (max-width: 1024px) {
+  .center h1{
+    font-size: 1.5rem;
+  }
+
+  .center h2{
+    font-size: 1.2rem;
+  }
+
+  }
+
+  @media only screen and (max-width: 470px){
+    .new{
+      height: 15rem;
+    }
+
+    .center{
+      width: 100%;
+      padding: 1rem 2rem;
+      top: 10rem;
+    }
+
+    .center h1{
+      font-size: 1rem;
+      font-family: helvetica;
+      font-weight: bold;
+    }
+
+    .center h2{
+      font-size: 0.77rem;
+      font-family: helvetica;
+      font-weight: bold;
+    }
+  }
+
 /* Navigation */
 .nav{
   background-color: firebrick;
@@ -71,6 +106,20 @@ html {
   list-style: none;
 }
 
+.mobile-nav{
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav .list{
+    display: none;
+  }
+
+  .mobile-nav{
+    display: block;
+    text-align: center;
+  }
+}
 /* Product Highlights */
 .products{
   display: flex;
@@ -105,6 +154,37 @@ html {
   text-align: center;
 }
 
+@media only screen and (max-width: 1024px){
+  .pen,
+  .watch,
+  .glasses{
+    width: 47%;
+  }
+
+  .glasses{
+    display: none;
+  }
+
+  .location,
+  .hours{
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 470px){
+  .pen,
+  .watch,
+  .glasses{
+    width: 90%;
+  }
+
+  .watch,
+  .glasses{
+    display: none;
+  }
+}
+
+/* Contact Info */
 .info{
   display: flex;
   align-items: center;
@@ -129,6 +209,18 @@ html {
   width: 35%;
 }
 
+@media only screen and (max-width: 470px){
+  .info{
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+
+  .products,
+  .info{
+    flex-wrap: wrap;
+  }
+}
+/* Footer */
 .footer{
   background-color: black;
   color: white;
